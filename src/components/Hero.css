@@ -1,0 +1,69 @@
+.hero-image {
+  background-image: url(../assets/assets_Homework_Front-End_01/bitmap@3x.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    background-image: url(../assets/assets_Homework_Front-End_01/bitmap.png);
+  }
+}
+@media (min-width: 992px) {
+  .hero-image {
+    background-image: url(../assets/assets_Homework_Front-End_01/bitmap@2x.png);
+  }
+}
+@media (min-width: 1200px) {
+  .hero-image {
+    background-image: url(../assets/assets_Homework_Front-End_01/bitmap@3x.png);
+  }
+}
+
+.hero {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.hero h1 {
+  line-height: 1.5;
+  color: #cfb995;
+  font-size: 48px;
+  height: 72px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.hero h2 {
+  font-size: 22.5px;
+  color: white;
+  font-weight: 400;
+}
+
+@media (min-width: 300px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 490px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 22.5px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 22.5px;
+  }
+}
